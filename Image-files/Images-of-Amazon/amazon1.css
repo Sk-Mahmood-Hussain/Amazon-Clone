@@ -15,8 +15,6 @@
   align-items: center;
   color: white;
 }
-
-
 .navlogo {
   /* flex: 1; */
   height: 50px;
@@ -41,12 +39,14 @@
 
 .address-first {
   color: #ccc;
-  font-size: 0.85rem;
+  /* font-size: 0.85rem; */
+  font-size: 1.7vh;
   font-weight: 400px;
   margin-left: 15px;
 }
 .address-second {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 1.75vh;
   font-weight: 700px;
   margin-left: 3px;
 }
@@ -120,17 +120,18 @@
   padding:0px 9px 10px ;
 } */
 .hello {
-  font-size: 0.7rem;
+  font-size: 1.4vh;
 }
 .select_account {
   font-size: 0.85rem;
+  font-size: 1.7vh;
   font-weight: 700;
 }
 .cart i {
-  font-size: 1.4rem;
+  font-size: 2.8vh;
 }
 .cart {
-  font-size: 0.85rem;
+  font-size: 0.8vh;
 }
 /* ........................................................NAV SECOND ........... */
 .nav_content {
@@ -270,10 +271,97 @@ align-items: center; */
   padding-top: 5px;
 }
 
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
 
+  .nav_search {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
 
+  .search_input {
+    width: 70%;
+  }
 
+  .options, .search_icon, .upload_file {
+    width: auto;
+    padding: 10px;
+  }
 
+  .shop_section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  footer .foot-panel2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .foot-panel2 ul {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .navbar {
+    height: 80px;
+    padding: 0 20px;
+  }
+
+  .nav_search {
+    width: 80%;
+  }
+
+  .shop_section {
+    justify-content: space-around;
+  }
+
+  .box {
+    width: 45%;
+  }
+
+  footer .foot-panel2 {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px;
+  }
+}
+
+/* Desktops */
+@media only screen and (min-width: 768px) {
+  .navbar {
+    height: 60px;
+  }
+
+  .nav_search {
+    width: 620px;
+  }
+
+  .box {
+    width: 23%;
+  }
+
+  footer .foot-panel2 {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
 
 
 
