@@ -26,8 +26,9 @@ git clone https://github.com/Sk-Mahmood-Hussain/Amazon-Clone.git
 ```
 
 ** Navigate to the project directory:**
+``` bash
 cd amazon-clone
-
+```
 Open the project in your preferred code editor (e.g., VS Code).
 
 Run the project:
@@ -52,7 +53,6 @@ In future versions, I plan to add:
 **Backend Functionality:** Implement a backend using Node.js or Python, and database integration (MongoDB, MySQL) to store user and product information.
 **Authentication System:** A login and signup system to allow users to create accounts and view personalized data.
 
-Screenshots
 
 Credits
 This project was developed as part of my **Bachelor in Computer Application (BCA)** coursework. The design is heavily inspired by Amazon's original layout but is created from scratch for learning purposes.
